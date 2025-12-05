@@ -1,0 +1,5 @@
+{
+  "name": "VHU Student Portal AI",
+  "description": "A modern, AI-integrated student portal dashboard featuring grade tracking, schedule management, and an intelligent Gemini-powered assistant.",
+  "requestFramePermissions": []
+}
