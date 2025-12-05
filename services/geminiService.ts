@@ -1,7 +1,7 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 
 // Initialize the Gemini Client
-// CRITICAL: process.env.API_KEY is injected by the environment.
+// The API key must be obtained exclusively from the environment variable process.env.API_KEY.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const SYSTEM_INSTRUCTION = `
